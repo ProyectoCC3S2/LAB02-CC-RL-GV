@@ -1,0 +1,86 @@
+body {
+    background-image: url(../Libros/images/Image.jpg);
+    background-size: 100%;
+    font-family: monospace;
+    margin: 0;
+}
+
+.C1, .C2, .C3 {
+    background-color: RGBA(255, 255, 240,0.6);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    border: none;
+    border-radius: 28px;
+    width: 400px;
+    float: left;
+}
+
+.titulo{
+    color: #0c0c0c;
+    margin-left: 10%;
+    font-size: 50px;
+}
+h1{
+    color: #0c0c0c;
+    margin-left: 10%;
+}
+
+h2 {
+    color: #0c0c0c;
+    margin-left: 10%;
+    padding-top: 15px;
+    max-width: 400px;
+}
+
+p {
+    margin-left: 10%;    
+}
+
+.TOP {
+    padding-left: 10%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    background-color: RGB(255, 255, 240);
+}
+
+.aref{
+    display: inline-block;
+    margin: 4px 2px;
+}
+
+.button{
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.button, .aref{
+    background-color: #696969;
+    border: none;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 28px;
+}
+.button:hover, .aref:hover{
+    background-color: white;
+    border: none;
+    color: #696969;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 28px;
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
